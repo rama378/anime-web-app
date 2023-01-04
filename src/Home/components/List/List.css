@@ -1,0 +1,10 @@
+.List {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    padding: 16px;
+}
+
+.List__item {
+    flex: calc(20% - 16px) 0;
+}

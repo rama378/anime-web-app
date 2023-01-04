@@ -1,0 +1,845 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> should render and match the snapshot 1`] = `
+<div
+  className="List"
+>
+  <Card
+    className="List__item"
+    detail={
+      Object {
+        "aired": Object {
+          "from": "1998-04-03T00:00:00+00:00",
+          "prop": Object {
+            "from": Object {
+              "day": 3,
+              "month": 4,
+              "year": 1998,
+            },
+            "to": Object {
+              "day": 24,
+              "month": 4,
+              "year": 1999,
+            },
+          },
+          "string": "Apr 3, 1998 to Apr 24, 1999",
+          "to": "1999-04-24T00:00:00+00:00",
+        },
+        "airing": false,
+        "approved": true,
+        "background": "When Cowboy Bebop first aired in spring of 1998 on TV Tokyo, only episodes 2, 3, 7-15, and 18 were broadcast, it was concluded with a recap special known as Yose Atsume Blues. This was due to anime censorship having increased following the big controversies over Evangelion, as a result most of the series was pulled from the air due to violent content. Satellite channel WOWOW picked up the series in the fall of that year and aired it in its entirety uncensored. Cowboy Bebop was not a ratings hit in Japan, but sold over 19,000 DVD units in the initial release run, and 81,000 overall. Protagonist Spike Spiegel won Best Male Character, and Megumi Hayashibara won Best Voice Actor for her role as Faye Valentine in the 1999 and 2000 Anime Grand Prix, respectively. Cowboy Bebop's biggest influence has been in the United States, where it premiered on Adult Swim in 2001 with many reruns since. The show's heavy Western influence struck a chord with American viewers, where it became a \\"gateway drug\\" to anime aimed at adult audiences.",
+        "broadcast": Object {
+          "day": "Saturdays",
+          "string": "Saturdays at 01:00 (JST)",
+          "time": "01:00",
+          "timezone": "Asia/Tokyo",
+        },
+        "demographics": Array [],
+        "duration": "24 min per ep",
+        "episodes": 26,
+        "explicit_genres": Array [],
+        "favorites": 75757,
+        "genres": Array [
+          Object {
+            "mal_id": 1,
+            "name": "Action",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/1/Action",
+          },
+          Object {
+            "mal_id": 24,
+            "name": "Sci-Fi",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/24/Sci-Fi",
+          },
+        ],
+        "images": Object {
+          "jpg": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/4/19644.jpg",
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/4/19644l.jpg",
+            "small_image_url": "https://cdn.myanimelist.net/images/anime/4/19644t.jpg",
+          },
+          "webp": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/4/19644.webp",
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/4/19644l.webp",
+            "small_image_url": "https://cdn.myanimelist.net/images/anime/4/19644t.webp",
+          },
+        },
+        "licensors": Array [
+          Object {
+            "mal_id": 102,
+            "name": "Funimation",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/102/Funimation",
+          },
+          Object {
+            "mal_id": 233,
+            "name": "Bandai Entertainment",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/233/Bandai_Entertainment",
+          },
+        ],
+        "mal_id": 1,
+        "members": 1707627,
+        "popularity": 43,
+        "producers": Array [
+          Object {
+            "mal_id": 23,
+            "name": "Bandai Visual",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/23/Bandai_Visual",
+          },
+        ],
+        "rank": 39,
+        "rating": "R - 17+ (violence & profanity)",
+        "score": 8.75,
+        "scored_by": 879952,
+        "season": "spring",
+        "source": "Original",
+        "status": "Finished Airing",
+        "studios": Array [
+          Object {
+            "mal_id": 14,
+            "name": "Sunrise",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/14/Sunrise",
+          },
+        ],
+        "synopsis": "Crime is timeless. By the year 2071, humanity has expanded across the galaxy, filling the surface of other planets with settlements like those on Earth. These new societies are plagued by murder, drug use, and theft, and intergalactic outlaws are hunted by a growing number of tough bounty hunters.
+
+Spike Spiegel and Jet Black pursue criminals throughout space to make a humble living. Beneath his goofy and aloof demeanor, Spike is haunted by the weight of his violent past. Meanwhile, Jet manages his own troubled memories while taking care of Spike and the Bebop, their ship. The duo is joined by the beautiful con artist Faye Valentine, odd child Edward Wong Hau Pepelu Tivrusky IV, and Ein, a bioengineered Welsh Corgi.
+
+While developing bonds and working to catch a colorful cast of criminals, the Bebop crew's lives are disrupted by a menace from Spike's past. As a rival's maniacal plot continues to unravel, Spike must choose between life with his newfound family or revenge for his old wounds.
+
+[Written by MAL Rewrite]",
+        "themes": Array [
+          Object {
+            "mal_id": 50,
+            "name": "Adult Cast",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/50/Adult_Cast",
+          },
+          Object {
+            "mal_id": 29,
+            "name": "Space",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/29/Space",
+          },
+        ],
+        "title": "Cowboy Bebop",
+        "title_english": "Cowboy Bebop",
+        "title_japanese": "カウボーイビバップ",
+        "title_synonyms": Array [],
+        "titles": Array [
+          Object {
+            "title": "Cowboy Bebop",
+            "type": "Default",
+          },
+          Object {
+            "title": "カウボーイビバップ",
+            "type": "Japanese",
+          },
+          Object {
+            "title": "Cowboy Bebop",
+            "type": "English",
+          },
+        ],
+        "trailer": Object {
+          "embed_url": "https://www.youtube.com/embed/qig4KOK2R2g?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": Object {
+            "image_url": "https://img.youtube.com/vi/qig4KOK2R2g/default.jpg",
+            "large_image_url": "https://img.youtube.com/vi/qig4KOK2R2g/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/qig4KOK2R2g/maxresdefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/qig4KOK2R2g/mqdefault.jpg",
+            "small_image_url": "https://img.youtube.com/vi/qig4KOK2R2g/sddefault.jpg",
+          },
+          "url": "https://www.youtube.com/watch?v=qig4KOK2R2g",
+          "youtube_id": "qig4KOK2R2g",
+        },
+        "type": "TV",
+        "url": "https://myanimelist.net/anime/1/Cowboy_Bebop",
+        "year": 1998,
+      }
+    }
+  />
+  <Card
+    className="List__item"
+    detail={
+      Object {
+        "aired": Object {
+          "from": "2001-09-01T00:00:00+00:00",
+          "prop": Object {
+            "from": Object {
+              "day": 1,
+              "month": 9,
+              "year": 2001,
+            },
+            "to": Object {
+              "day": null,
+              "month": null,
+              "year": null,
+            },
+          },
+          "string": "Sep 1, 2001",
+          "to": null,
+        },
+        "airing": false,
+        "approved": true,
+        "background": null,
+        "broadcast": Object {
+          "day": null,
+          "string": null,
+          "time": null,
+          "timezone": null,
+        },
+        "demographics": Array [],
+        "duration": "1 hr 55 min",
+        "episodes": 1,
+        "explicit_genres": Array [],
+        "favorites": 1382,
+        "genres": Array [
+          Object {
+            "mal_id": 1,
+            "name": "Action",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/1/Action",
+          },
+          Object {
+            "mal_id": 24,
+            "name": "Sci-Fi",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/24/Sci-Fi",
+          },
+        ],
+        "images": Object {
+          "jpg": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/1439/93480.jpg",
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/1439/93480l.jpg",
+            "small_image_url": "https://cdn.myanimelist.net/images/anime/1439/93480t.jpg",
+          },
+          "webp": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/1439/93480.webp",
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/1439/93480l.webp",
+            "small_image_url": "https://cdn.myanimelist.net/images/anime/1439/93480t.webp",
+          },
+        },
+        "licensors": Array [
+          Object {
+            "mal_id": 15,
+            "name": "Sony Pictures Entertainment",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/15/Sony_Pictures_Entertainment",
+          },
+        ],
+        "mal_id": 5,
+        "members": 349716,
+        "popularity": 590,
+        "producers": Array [
+          Object {
+            "mal_id": 14,
+            "name": "Sunrise",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/14/Sunrise",
+          },
+          Object {
+            "mal_id": 23,
+            "name": "Bandai Visual",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/23/Bandai_Visual",
+          },
+        ],
+        "rank": 183,
+        "rating": "R - 17+ (violence & profanity)",
+        "score": 8.38,
+        "scored_by": 200405,
+        "season": null,
+        "source": "Original",
+        "status": "Finished Airing",
+        "studios": Array [
+          Object {
+            "mal_id": 4,
+            "name": "Bones",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/4/Bones",
+          },
+        ],
+        "synopsis": "Another day, another bounty—such is the life of the often unlucky crew of the Bebop. However, this routine is interrupted when Faye, who is chasing a fairly worthless target on Mars, witnesses an oil tanker suddenly explode, causing mass hysteria. As casualties mount due to a strange disease spreading through the smoke from the blast, a whopping three hundred million woolong price is placed on the head of the supposed perpetrator.
+
+With lives at stake and a solution to their money problems in sight, the Bebop crew springs into action. Spike, Jet, Faye, and Edward, followed closely by Ein, split up to pursue different leads across Alba City. Through their individual investigations, they discover a cover-up scheme involving a pharmaceutical company, revealing a plot that reaches much further than the ragtag team of bounty hunters could have realized.
+
+[Written by MAL Rewrite]",
+        "themes": Array [
+          Object {
+            "mal_id": 50,
+            "name": "Adult Cast",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/50/Adult_Cast",
+          },
+          Object {
+            "mal_id": 29,
+            "name": "Space",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/29/Space",
+          },
+        ],
+        "title": "Cowboy Bebop: Tengoku no Tobira",
+        "title_english": "Cowboy Bebop: The Movie",
+        "title_japanese": "カウボーイビバップ 天国の扉",
+        "title_synonyms": Array [
+          "Cowboy Bebop: Knockin' on Heaven's Door",
+        ],
+        "titles": Array [
+          Object {
+            "title": "Cowboy Bebop: Tengoku no Tobira",
+            "type": "Default",
+          },
+          Object {
+            "title": "Cowboy Bebop: Knockin' on Heaven's Door",
+            "type": "Synonym",
+          },
+          Object {
+            "title": "カウボーイビバップ 天国の扉",
+            "type": "Japanese",
+          },
+          Object {
+            "title": "Cowboy Bebop: The Movie",
+            "type": "English",
+          },
+          Object {
+            "title": "Cowboy Bebop: Der Film",
+            "type": "German",
+          },
+          Object {
+            "title": "Cowboy Bebop: La Película",
+            "type": "Spanish",
+          },
+          Object {
+            "title": "Cowboy Bebop: Le Film",
+            "type": "French",
+          },
+        ],
+        "trailer": Object {
+          "embed_url": "https://www.youtube.com/embed/hc7IxJ93jtM?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": Object {
+            "image_url": "https://img.youtube.com/vi/hc7IxJ93jtM/default.jpg",
+            "large_image_url": "https://img.youtube.com/vi/hc7IxJ93jtM/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/hc7IxJ93jtM/maxresdefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/hc7IxJ93jtM/mqdefault.jpg",
+            "small_image_url": "https://img.youtube.com/vi/hc7IxJ93jtM/sddefault.jpg",
+          },
+          "url": "https://www.youtube.com/watch?v=hc7IxJ93jtM",
+          "youtube_id": "hc7IxJ93jtM",
+        },
+        "type": "Movie",
+        "url": "https://myanimelist.net/anime/5/Cowboy_Bebop__Tengoku_no_Tobira",
+        "year": null,
+      }
+    }
+  />
+  <Card
+    className="List__item"
+    detail={
+      Object {
+        "aired": Object {
+          "from": "1998-04-01T00:00:00+00:00",
+          "prop": Object {
+            "from": Object {
+              "day": 1,
+              "month": 4,
+              "year": 1998,
+            },
+            "to": Object {
+              "day": 30,
+              "month": 9,
+              "year": 1998,
+            },
+          },
+          "string": "Apr 1, 1998 to Sep 30, 1998",
+          "to": "1998-09-30T00:00:00+00:00",
+        },
+        "airing": false,
+        "approved": true,
+        "background": "The Japanese release by Victor Entertainment has different openings relating to the specific episode it's played on. The initial Geneon Entertainment USA (then known as Pioneer) releases on VHS and DVD (singles, Signature Series, and box set) used only the first opening on each episode. This was due to the Japanese licensor providing them clean materials for only the first opening to put the English credits on. Geneon later fixed this mistake on their Limited Edition tin releases in 2005/2006, as well as on the Remix singles. Following Geneon USA's demise in late 2007, the show went out of print. When FUNimation Entertainment picked up the show in 2010 and released it, they repeated Geneon's mistake of using only the first opening on every episode. This mistake was later fixed in 2013 on the Anime Classics re-release.",
+        "broadcast": Object {
+          "day": "Thursdays",
+          "string": "Thursdays at 01:15 (JST)",
+          "time": "01:15",
+          "timezone": "Asia/Tokyo",
+        },
+        "demographics": Array [
+          Object {
+            "mal_id": 27,
+            "name": "Shounen",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/27/Shounen",
+          },
+        ],
+        "duration": "24 min per ep",
+        "episodes": 26,
+        "explicit_genres": Array [],
+        "favorites": 14050,
+        "genres": Array [
+          Object {
+            "mal_id": 1,
+            "name": "Action",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/1/Action",
+          },
+          Object {
+            "mal_id": 2,
+            "name": "Adventure",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/2/Adventure",
+          },
+          Object {
+            "mal_id": 24,
+            "name": "Sci-Fi",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/24/Sci-Fi",
+          },
+        ],
+        "images": Object {
+          "jpg": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/7/20310.jpg",
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/7/20310l.jpg",
+            "small_image_url": "https://cdn.myanimelist.net/images/anime/7/20310t.jpg",
+          },
+          "webp": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/7/20310.webp",
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/7/20310l.webp",
+            "small_image_url": "https://cdn.myanimelist.net/images/anime/7/20310t.webp",
+          },
+        },
+        "licensors": Array [
+          Object {
+            "mal_id": 102,
+            "name": "Funimation",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/102/Funimation",
+          },
+          Object {
+            "mal_id": 1459,
+            "name": "Geneon Entertainment USA",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/1459/Geneon_Entertainment_USA",
+          },
+        ],
+        "mal_id": 6,
+        "members": 692426,
+        "popularity": 248,
+        "producers": Array [
+          Object {
+            "mal_id": 123,
+            "name": "Victor Entertainment",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/123/Victor_Entertainment",
+          },
+        ],
+        "rank": 330,
+        "rating": "PG-13 - Teens 13 or older",
+        "score": 8.21,
+        "scored_by": 341389,
+        "season": "spring",
+        "source": "Manga",
+        "status": "Finished Airing",
+        "studios": Array [
+          Object {
+            "mal_id": 11,
+            "name": "Madhouse",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/11/Madhouse",
+          },
+        ],
+        "synopsis": "Vash the Stampede is the man with a $$60,000,000,000 bounty on his head. The reason: he's a merciless villain who lays waste to all those that oppose him and flattens entire cities for fun, garnering him the title \\"The Humanoid Typhoon.\\" He leaves a trail of death and destruction wherever he goes, and anyone can count themselves dead if they so much as make eye contact—or so the rumors say. In actuality, Vash is a huge softie who claims to have never taken a life and avoids violence at all costs.
+
+With his crazy doughnut obsession and buffoonish attitude in tow, Vash traverses the wasteland of the planet Gunsmoke, all the while followed by two insurance agents, Meryl Stryfe and Milly Thompson, who attempt to minimize his impact on the public. But soon, their misadventures evolve into life-or-death situations as a group of legendary assassins are summoned to bring about suffering to the trio. Vash's agonizing past will be unraveled and his morality and principles pushed to the breaking point.
+
+[Written by MAL Rewrite]",
+        "themes": Array [
+          Object {
+            "mal_id": 50,
+            "name": "Adult Cast",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/50/Adult_Cast",
+          },
+        ],
+        "title": "Trigun",
+        "title_english": "Trigun",
+        "title_japanese": "トライガン",
+        "title_synonyms": Array [],
+        "titles": Array [
+          Object {
+            "title": "Trigun",
+            "type": "Default",
+          },
+          Object {
+            "title": "トライガン",
+            "type": "Japanese",
+          },
+          Object {
+            "title": "Trigun",
+            "type": "English",
+          },
+        ],
+        "trailer": Object {
+          "embed_url": "https://www.youtube.com/embed/bJVyIXeUznY?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": Object {
+            "image_url": "https://img.youtube.com/vi/bJVyIXeUznY/default.jpg",
+            "large_image_url": "https://img.youtube.com/vi/bJVyIXeUznY/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/bJVyIXeUznY/maxresdefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/bJVyIXeUznY/mqdefault.jpg",
+            "small_image_url": "https://img.youtube.com/vi/bJVyIXeUznY/sddefault.jpg",
+          },
+          "url": "https://www.youtube.com/watch?v=bJVyIXeUznY",
+          "youtube_id": "bJVyIXeUznY",
+        },
+        "type": "TV",
+        "url": "https://myanimelist.net/anime/6/Trigun",
+        "year": 1998,
+      }
+    }
+  />
+  <Card
+    className="List__item"
+    detail={
+      Object {
+        "aired": Object {
+          "from": "2002-07-03T00:00:00+00:00",
+          "prop": Object {
+            "from": Object {
+              "day": 3,
+              "month": 7,
+              "year": 2002,
+            },
+            "to": Object {
+              "day": 25,
+              "month": 12,
+              "year": 2002,
+            },
+          },
+          "string": "Jul 3, 2002 to Dec 25, 2002",
+          "to": "2002-12-25T00:00:00+00:00",
+        },
+        "airing": false,
+        "approved": true,
+        "background": null,
+        "broadcast": Object {
+          "day": "Wednesdays",
+          "string": "Wednesdays at 01:25 (JST)",
+          "time": "01:25",
+          "timezone": "Asia/Tokyo",
+        },
+        "demographics": Array [],
+        "duration": "25 min per ep",
+        "episodes": 26,
+        "explicit_genres": Array [],
+        "favorites": 593,
+        "genres": Array [
+          Object {
+            "mal_id": 1,
+            "name": "Action",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/1/Action",
+          },
+          Object {
+            "mal_id": 8,
+            "name": "Drama",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/8/Drama",
+          },
+          Object {
+            "mal_id": 7,
+            "name": "Mystery",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/7/Mystery",
+          },
+          Object {
+            "mal_id": 37,
+            "name": "Supernatural",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/37/Supernatural",
+          },
+        ],
+        "images": Object {
+          "jpg": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/10/19969.jpg",
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/10/19969l.jpg",
+            "small_image_url": "https://cdn.myanimelist.net/images/anime/10/19969t.jpg",
+          },
+          "webp": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/10/19969.webp",
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/10/19969l.webp",
+            "small_image_url": "https://cdn.myanimelist.net/images/anime/10/19969t.webp",
+          },
+        },
+        "licensors": Array [
+          Object {
+            "mal_id": 102,
+            "name": "Funimation",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/102/Funimation",
+          },
+          Object {
+            "mal_id": 233,
+            "name": "Bandai Entertainment",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/233/Bandai_Entertainment",
+          },
+        ],
+        "mal_id": 7,
+        "members": 109261,
+        "popularity": 1746,
+        "producers": Array [
+          Object {
+            "mal_id": 23,
+            "name": "Bandai Visual",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/23/Bandai_Visual",
+          },
+          Object {
+            "mal_id": 53,
+            "name": "Dentsu",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/53/Dentsu",
+          },
+          Object {
+            "mal_id": 123,
+            "name": "Victor Entertainment",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/123/Victor_Entertainment",
+          },
+          Object {
+            "mal_id": 717,
+            "name": "TV Tokyo Music",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/717/TV_Tokyo_Music",
+          },
+        ],
+        "rank": 2764,
+        "rating": "PG-13 - Teens 13 or older",
+        "score": 7.25,
+        "scored_by": 42241,
+        "season": "summer",
+        "source": "Original",
+        "status": "Finished Airing",
+        "studios": Array [
+          Object {
+            "mal_id": 14,
+            "name": "Sunrise",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/14/Sunrise",
+          },
+        ],
+        "synopsis": "Robin Sena is a powerful craft user drafted into the STNJ—a group of specialized hunters that fight deadly beings known as Witches. Though her fire power is great, she's got a lot to learn about her powers and working with her cool and aloof partner, Amon. But the truth about the Witches and herself will leave Robin on an entirely new path that she never expected!
+
+(Source: Funimation)",
+        "themes": Array [
+          Object {
+            "mal_id": 39,
+            "name": "Detective",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/39/Detective",
+          },
+        ],
+        "title": "Witch Hunter Robin",
+        "title_english": "Witch Hunter Robin",
+        "title_japanese": "Witch Hunter ROBIN (ウイッチハンターロビン)",
+        "title_synonyms": Array [
+          "WHR",
+        ],
+        "titles": Array [
+          Object {
+            "title": "Witch Hunter Robin",
+            "type": "Default",
+          },
+          Object {
+            "title": "WHR",
+            "type": "Synonym",
+          },
+          Object {
+            "title": "Witch Hunter ROBIN (ウイッチハンターロビン)",
+            "type": "Japanese",
+          },
+          Object {
+            "title": "Witch Hunter Robin",
+            "type": "English",
+          },
+        ],
+        "trailer": Object {
+          "embed_url": "https://www.youtube.com/embed/7UkaILjPk8M?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": Object {
+            "image_url": "https://img.youtube.com/vi/7UkaILjPk8M/default.jpg",
+            "large_image_url": "https://img.youtube.com/vi/7UkaILjPk8M/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/7UkaILjPk8M/maxresdefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/7UkaILjPk8M/mqdefault.jpg",
+            "small_image_url": "https://img.youtube.com/vi/7UkaILjPk8M/sddefault.jpg",
+          },
+          "url": "https://www.youtube.com/watch?v=7UkaILjPk8M",
+          "youtube_id": "7UkaILjPk8M",
+        },
+        "type": "TV",
+        "url": "https://myanimelist.net/anime/7/Witch_Hunter_Robin",
+        "year": 2002,
+      }
+    }
+  />
+  <Card
+    className="List__item"
+    detail={
+      Object {
+        "aired": Object {
+          "from": "2004-09-30T00:00:00+00:00",
+          "prop": Object {
+            "from": Object {
+              "day": 30,
+              "month": 9,
+              "year": 2004,
+            },
+            "to": Object {
+              "day": 29,
+              "month": 9,
+              "year": 2005,
+            },
+          },
+          "string": "Sep 30, 2004 to Sep 29, 2005",
+          "to": "2005-09-29T00:00:00+00:00",
+        },
+        "airing": false,
+        "approved": true,
+        "background": null,
+        "broadcast": Object {
+          "day": "Thursdays",
+          "string": "Thursdays at 18:30 (JST)",
+          "time": "18:30",
+          "timezone": "Asia/Tokyo",
+        },
+        "demographics": Array [
+          Object {
+            "mal_id": 27,
+            "name": "Shounen",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/27/Shounen",
+          },
+        ],
+        "duration": "23 min per ep",
+        "episodes": 52,
+        "explicit_genres": Array [],
+        "favorites": 14,
+        "genres": Array [
+          Object {
+            "mal_id": 2,
+            "name": "Adventure",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/2/Adventure",
+          },
+          Object {
+            "mal_id": 10,
+            "name": "Fantasy",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/10/Fantasy",
+          },
+          Object {
+            "mal_id": 37,
+            "name": "Supernatural",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/genre/37/Supernatural",
+          },
+        ],
+        "images": Object {
+          "jpg": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/7/21569.jpg",
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/7/21569l.jpg",
+            "small_image_url": "https://cdn.myanimelist.net/images/anime/7/21569t.jpg",
+          },
+          "webp": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/7/21569.webp",
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/7/21569l.webp",
+            "small_image_url": "https://cdn.myanimelist.net/images/anime/7/21569t.webp",
+          },
+        },
+        "licensors": Array [
+          Object {
+            "mal_id": 2262,
+            "name": "Illumitoon Entertainment",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/2262/Illumitoon_Entertainment",
+          },
+        ],
+        "mal_id": 8,
+        "members": 14705,
+        "popularity": 5010,
+        "producers": Array [
+          Object {
+            "mal_id": 16,
+            "name": "TV Tokyo",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo",
+          },
+          Object {
+            "mal_id": 53,
+            "name": "Dentsu",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/53/Dentsu",
+          },
+        ],
+        "rank": 4240,
+        "rating": "PG - Children",
+        "score": 6.95,
+        "scored_by": 6324,
+        "season": "fall",
+        "source": "Manga",
+        "status": "Finished Airing",
+        "studios": Array [
+          Object {
+            "mal_id": 18,
+            "name": "Toei Animation",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/producer/18/Toei_Animation",
+          },
+        ],
+        "synopsis": "It is the dark century and the people are suffering under the rule of the devil, Vandel, who is able to manipulate monsters. The Vandel Busters are a group of people who hunt these devils, and among them, the Zenon Squad is known to be the strongest busters on the continent. A young boy, Beet, dreams of joining the Zenon Squad. However, one day, as a result of Beet's fault, the Zenon squad was defeated by the devil, Beltose. The five dying busters sacrificed their life power into their five weapons, Saiga. After giving their weapons to Beet, they passed away. Years have passed since then and the young Vandel Buster, Beet, begins his adventure to carry out the Zenon Squad's will to put an end to the dark century.",
+        "themes": Array [],
+        "title": "Bouken Ou Beet",
+        "title_english": "Beet the Vandel Buster",
+        "title_japanese": "冒険王ビィト",
+        "title_synonyms": Array [
+          "Adventure King Beet",
+        ],
+        "titles": Array [
+          Object {
+            "title": "Bouken Ou Beet",
+            "type": "Default",
+          },
+          Object {
+            "title": "Adventure King Beet",
+            "type": "Synonym",
+          },
+          Object {
+            "title": "冒険王ビィト",
+            "type": "Japanese",
+          },
+          Object {
+            "title": "Beet the Vandel Buster",
+            "type": "English",
+          },
+        ],
+        "trailer": Object {
+          "embed_url": null,
+          "images": Object {
+            "image_url": null,
+            "large_image_url": null,
+            "maximum_image_url": null,
+            "medium_image_url": null,
+            "small_image_url": null,
+          },
+          "url": null,
+          "youtube_id": null,
+        },
+        "type": "TV",
+        "url": "https://myanimelist.net/anime/8/Bouken_Ou_Beet",
+        "year": 2004,
+      }
+    }
+  />
+</div>
+`;
