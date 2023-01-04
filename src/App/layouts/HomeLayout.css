@@ -1,0 +1,9 @@
+.HomeLayout {
+  --background: #000;
+  --text-color: #fff;
+  --font-family: 'Roboto', sans-serif;
+  --font-size: 14px;
+  --font-size-large: 16px;
+
+  font-size: var(--font-size);
+}

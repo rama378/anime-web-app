@@ -1,0 +1,7 @@
+.UserProfile {}
+
+.UserProfile__user {
+  display: inline-block;
+  margin-right: 16px;
+  font-weight: bold;
+}

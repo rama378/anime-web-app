@@ -1,0 +1,9 @@
+.Header {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.Header__logo {
+  flex-grow: 1;
+}

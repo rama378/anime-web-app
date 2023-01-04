@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render and match the snapshot 1`] = `
+<div
+  className="Header"
+>
+  <div
+    className="Header__logo"
+  >
+    <Logo />
+  </div>
+  <UserProfile />
+</div>
+`;

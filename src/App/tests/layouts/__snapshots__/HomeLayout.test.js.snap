@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeLayout /> should render and match the snapshot 1`] = `
+<div
+  className="HomeLayout"
+>
+  <Header />
+  <div>
+    Content
+  </div>
+  <Footer />
+</div>
+`;

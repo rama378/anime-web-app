@@ -1,0 +1,50 @@
+.Button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 32px;
+  font-weight: bold;
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+  transition: 0.2s all;
+}
+
+.Button svg {
+  height: 20px;
+  width: 20px;
+  transition: 0.2s all;
+}
+
+.Button:hover {
+  font-size: var(--font-size-large);
+  margin: -2px;
+  transition: 0.2s all;
+}
+
+.Button:hover svg {
+  height: 22px;
+  width: 22px;
+  transition: 0.2s all;
+}
+
+.Button:active {
+  font-size: var(--font-size);
+  opacity: 0.5;
+  transition: 0.2s all;
+}
+
+.Button:active svg {
+  height: 20px;
+  width: 20px;
+  transition: 0.2s all;
+}
+
+.Button--default {
+  color: var(--background);
+  background-color: var(--text-color);
+}
+
+.Button--clear {
+  color: var(--text-color);
+}
