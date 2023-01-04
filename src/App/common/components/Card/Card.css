@@ -1,0 +1,54 @@
+.Card {
+  cursor: pointer;
+  background-color: #212121;
+  border-radius: 8px;
+  padding: 1px;
+  transition: 0.3s all;
+}
+
+.Card:hover {
+  background-color: #2e2e2e;
+  transition: 0.3s all;
+}
+
+.Card__wrapper {
+  padding: 8px;
+}
+
+.Card__imagewrapper {
+  border-radius: 8px;
+  margin: 16px;
+  max-height: 340px;
+  overflow: hidden;
+}
+
+.Card__image {
+  width: 100%;
+}
+
+.Card__title {
+  margin: 8px 16px 16px 16px;
+  font-weight: bold;
+  font-size: var(--font-size-large);
+}
+
+.Card__footer {
+  margin: 0 16px 16px 16px;
+}
+
+.Card__ratingicon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.Card__rating {
+  font-size: var(--font-size-small);
+  margin-top: 8px;
+}
+
+.Card__ratinglabel {
+  opacity: 0.5;
+}
