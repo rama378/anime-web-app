@@ -1,6 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> should render and match the snapshot 1`] = `
+exports[`<Button /> should render and match the snapshot given prop style clear 1`] = `
+<button
+  className="Button Button--clear"
+>
+  Button
+</button>
+`;
+
+exports[`<Button /> should render and match the snapshot given prop style default 1`] = `
+<button
+  className="Button Button--default"
+>
+  Button
+</button>
+`;
+
+exports[`<Button /> should render and match the snapshot no prop given 1`] = `
 <button
   className="Button Button--default"
 >
