@@ -1,49 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Card /> should render and match the snapshot 1`] = `
-<div
-  className="Card__wrapper null"
->
-  <div
-    className="Card"
-  >
-    <div
-      className="Card__imagewrapper"
-    >
-      <img
-        className="Card__image"
-      />
-    </div>
-    <div
-      className="Card__title"
-    />
-    <div
-      className="Card__footer"
-    >
-      <div>
-        <ForwardRef(SvgStarCommentAlt)
-          className="Card__ratingicon"
-        />
-         
-         (
-        
-        )
-      </div>
-      <div
-        className="Card__rating"
-      >
-        <span
-          className="Card__ratinglabel"
-        >
-          Rating : 
-        </span>
-         
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
 exports[`<Card /> should render and match the snapshot given detail prop 1`] = `
 <div
   className="Card__wrapper null"
