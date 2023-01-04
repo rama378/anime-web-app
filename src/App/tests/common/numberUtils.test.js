@@ -5,7 +5,7 @@ describe('numberUtils', () => {
         expect(formatNumber(null)).toBe('');
     });
 
-    test('formatNumber should return 123.456 with 123456 argument given', () => {
-        expect(formatNumber(123456)).toBe('123.456');
+    test('formatNumber should return 123,456 with 123456 argument given', () => {
+        expect(formatNumber(123456)).toBe('123,456');
     });
 });
