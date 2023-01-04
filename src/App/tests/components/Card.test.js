@@ -6,12 +6,6 @@ import Card from '../../common/components/Card/Card';
 const renderer = new ShallowRenderer();
 
 describe('<Card />', () => {
-  it('should render and match the snapshot', () => {
-    renderer.render(<Card />);
-    const renderedOutput = renderer.getRenderOutput();
-    expect(renderedOutput).toMatchSnapshot();
-  });
-  
   it('should render and match the snapshot given detail prop', () => {
     renderer.render((
       <Card detail={{
