@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> should render and match the snapshot no prop given 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="Search__wrapper"
+  >
+    <div
+      className="Search__title"
+    >
+      Find your anime
+    </div>
+    <div>
+      e.g. Cowboy Bebop, Trigun, Witch Hunter Robin
+    </div>
+  </div>
+  <div
+    className="Search__inputwrapper"
+  >
+    <Input
+      className="Search__input"
+      icon={<ForwardRef(SvgSearch) />}
+      placeholder="Type your anime title..."
+      size="large"
+    />
+  </div>
+</div>
+`;
