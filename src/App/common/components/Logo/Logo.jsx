@@ -1,3 +1,4 @@
+import { APP_NAME } from '../../constants/constant';
 import './Logo.css';
 
 const Logo = () => {
@@ -9,7 +10,7 @@ const Logo = () => {
 				</div>
 			</div>
 			<div className='Logo__appname'>
-				Anime Web App
+				{APP_NAME}
 			</div>
 		</div>
 	);
