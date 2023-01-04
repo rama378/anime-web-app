@@ -1,0 +1,39 @@
+.Input {
+  width: 100%;
+  font-weight: bold;
+  font-family: var(--font-family);
+  border: none;
+  border-radius: 16px;
+}
+
+.Input::placeholder {
+  font-weight: normal;
+  font-style: italic;
+  color: #606060;
+}
+
+.Input:focus {
+  outline: none;
+}
+
+.Input__wrapper {
+  position: relative;
+}
+
+.Input__wrapper svg {
+  position: absolute;
+  right: -8px;
+  width: 30px;
+  height: 30px;
+  padding: 12px 0;
+}
+
+.Input--default {
+  padding: 16px;
+  font-size: var(--font-size-large);
+}
+
+.Input--large {
+  padding: 16px;
+  font-size: var(--font-size-larger);
+}

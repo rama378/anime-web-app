@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should render and match the snapshot given prop className Search__input 1`] = `
+<div
+  className="Input__wrapper Search__input"
+>
+  <input
+    className="Input Input--default"
+  />
+</div>
+`;
+
+exports[`<Input /> should render and match the snapshot given prop className Search__input 2`] = `
+<div
+  className="Input__wrapper null"
+>
+  <input
+    className="Input Input--default"
+  />
+  <ForwardRef(SvgSearch) />
+</div>
+`;
+
+exports[`<Input /> should render and match the snapshot given prop size large 1`] = `
+<div
+  className="Input__wrapper null"
+>
+  <input
+    className="Input Input--large"
+  />
+</div>
+`;
+
+exports[`<Input /> should render and match the snapshot no prop given 1`] = `
+<div
+  className="Input__wrapper null"
+>
+  <input
+    className="Input Input--default"
+  />
+</div>
+`;
