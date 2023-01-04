@@ -2,6 +2,7 @@
   padding: 16px;
   display: flex;
   align-items: center;
+  background-color: var(--background-dark);
 }
 
 .Header__logo {
