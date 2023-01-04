@@ -10,8 +10,8 @@ const Header = () => {
 				<Logo />
 			</div>
 			
-			{/* <Menu /> */}
-			<UserProfile />
+			<Menu />
+			{/* <UserProfile /> */}
 		</div>
 	);
 };
