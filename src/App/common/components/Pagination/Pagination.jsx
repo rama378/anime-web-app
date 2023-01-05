@@ -4,26 +4,39 @@ import Button from '../../components/Button/Button';
 import './Pagination.css';
 
 const Pagination = (props) => {
+  const getPagination = () => {
+    if (props?.page === 0 && props?.isNextAvailable)
+      return [props?.page, props?.page + 1, props?.page + 2];
+    else if (props?.page > 0 && props?.isNextAvailable)
+      return [props?.page - 1, props?.page, props?.page + 1];
+    else if (props?.page > 0 && !props?.isNextAvailable)
+      return [props?.page - 2, props?.page - 1, props?.page];
+  };
+
   return (
-    <div className='Pagination'>
-      {[...Array(props.maxPage)].map((n, index) => (
-        <Button className='Pagination__bullet' style={index === props.page ? 'default' : 'clear'} key={index.toString()}>{index + 1}</Button>
-      ))}
-    </div>
+    <>
+      {getPagination().length > 0 && (
+        <div className='Pagination'>
+          {getPagination().map((n) => (
+            <Button className='Pagination__bullet' style={n === props?.page ? 'default' : 'clear'} key={n.toString()}>{n + 1}</Button>
+          ))}
+        </div>
+      )}
+    </>
   );
 }
 
 Pagination.propTypes = {
 	limit: PropTypes.number,
   page: PropTypes.number,
-  maxPage: PropTypes.number,
+  isNextAvailable: PropTypes.bool,
   onChange: PropTypes.func,
 };
 
 Pagination.defaultProps = {
   limit: CARD_LIMIT,
   page: 0,
-  maxPage: 1,
+  isNextAvailable: true,
   onChange: () => {},
 };
 
