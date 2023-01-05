@@ -11,6 +11,8 @@ const Pagination = (props) => {
       return [props?.page - 1, props?.page, props?.page + 1];
     else if (props?.page > 0 && !props?.isNextAvailable)
       return [props?.page - 2, props?.page - 1, props?.page];
+    else
+      return [];
   };
 
   return (
