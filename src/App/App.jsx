@@ -6,6 +6,11 @@ import HomeLayout from './layouts/HomeLayout';
 import { PAGE } from './common/constants/constant';
 import Detail from '../Detail/Detail';
 
+// TODO: implement react-redux
+// TODO: implement redux-saga
+// TODO: split backend to hooks
+// TODO: split api call to hooks
+
 const App = () => {
   return (
     <BrowserRouter>
