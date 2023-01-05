@@ -4,6 +4,70 @@ exports[`<Detail /> should render and match the snapshot 1`] = `
 <div
   className="Detail"
 >
-  Detail
+  <div>
+    <img
+      className="Detail__image"
+      src="https://cdn.myanimelist.net/images/anime/4/19644.webp"
+    />
+  </div>
+  <div>
+    <div
+      className="Detail__title"
+    >
+      Cowboy Bebop
+       (
+      1998
+      )
+    </div>
+    <div
+      className="Detail__label"
+    >
+      Rating
+    </div>
+    <div>
+      <ForwardRef(SvgStarCommentAlt)
+        className="Detail__ratingicon"
+      />
+       
+      8.75
+       (
+      879,952
+      )
+    </div>
+    <div
+      className="Detail__label"
+    >
+      Synopsis
+    </div>
+    <div>
+      Crime is timeless. By the year 2071, humanity has expanded across the galaxy, filling the surface of other planets with settlements like those on Earth. These new societies are plagued by murder, drug use, and theft, and intergalactic outlaws are hunted by a growing number of tough bounty hunters.
+
+Spike Spiegel and Jet Black pursue criminals throughout space to make a humble living. Beneath his goofy and aloof demeanor, Spike is haunted by the weight of his violent past. Meanwhile, Jet manages his own troubled memories while taking care of Spike and the Bebop, their ship. The duo is joined by the beautiful con artist Faye Valentine, odd child Edward Wong Hau Pepelu Tivrusky IV, and Ein, a bioengineered Welsh Corgi.
+
+While developing bonds and working to catch a colorful cast of criminals, the Bebop crew's lives are disrupted by a menace from Spike's past. As a rival's maniacal plot continues to unravel, Spike must choose between life with his newfound family or revenge for his old wounds.
+
+[Written by MAL Rewrite]
+    </div>
+    <div
+      className="Detail__label"
+    >
+      Genre
+    </div>
+    <div>
+      Action, Sci-Fi
+    </div>
+    <div
+      className="Detail__label"
+    >
+      Watch Trailer
+    </div>
+    <div>
+      <iframe
+        height="200"
+        src="https://www.youtube.com/embed/qig4KOK2R2g?enablejsapi=1&wmode=opaque&autoplay=1"
+        width="350"
+      />
+    </div>
+  </div>
 </div>
 `;
