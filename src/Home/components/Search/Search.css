@@ -30,3 +30,18 @@
     width: 60%;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 500px) {
+    .Search__title {
+        width: 100%;
+    }
+
+    .Search__wrapper {
+        width: calc(100% - 64px);
+        background: none;
+    }
+
+    .Search__input {
+        width: calc(100% - 64px);
+    }
+}
