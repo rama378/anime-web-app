@@ -20,7 +20,14 @@ const Pagination = (props) => {
       {getPagination().length > 0 && (
         <div className='Pagination'>
           {getPagination().map((n) => (
-            <Button className='Pagination__bullet' style={n === props?.page ? 'default' : 'clear'} key={n.toString()}>{n + 1}</Button>
+            <Button
+              className='Pagination__bullet'
+              style={n === props?.page ? 'default' : 'clear'}
+              key={n.toString()}
+              onClick={() => props.onChange(n + 1)}
+            >
+              {n + 1}
+            </Button>
           ))}
         </div>
       )}
