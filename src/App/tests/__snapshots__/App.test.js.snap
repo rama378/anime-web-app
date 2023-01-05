@@ -13,6 +13,15 @@ exports[`<App /> should render and match the snapshot 1`] = `
       path="/"
     />
     <Route
+      element={
+        <HomeLayout>
+          <Detail />
+        </HomeLayout>
+      }
+      exact={true}
+      path="/detail/:id"
+    />
+    <Route
       element={<NotFound />}
       path="*"
     />

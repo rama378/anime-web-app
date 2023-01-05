@@ -2,12 +2,20 @@ import PropTypes from 'prop-types';
 import './Card.css';
 import {ReactComponent as UserRatingIcon} from "../../assets/images/icon/star-comment-alt.svg";
 import { formatNumber } from '../../utils/numberUtils';
+import { PAGE } from '../../constants/constant';
+import { useNavigate } from 'react-router-dom';
 
 const Card = (props) => {
 	const {detail, className, ...rest} = props;
-	
+
+	const navigate = useNavigate();
+    
+	const openDetail = () => {
+			navigate(`${PAGE.DETAIL}/${detail?.mal_id}`);
+	};
+
 	return (
-		<div className={`Card__wrapper ${className}`}>
+		<div className={`Card__wrapper ${className}`} onClick={openDetail}>
 			<div className='Card' {...rest}>
 				<div className='Card__imagewrapper'>
 					<img src={detail?.images?.webp?.image_url} className='Card__image' />

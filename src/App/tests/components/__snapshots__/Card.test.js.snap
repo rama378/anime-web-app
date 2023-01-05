@@ -1,50 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Card /> should render and match the snapshot given detail prop 1`] = `
-<div
-  className="Card__wrapper null"
+<Router
+  location={
+    Object {
+      "hash": "",
+      "key": "default",
+      "pathname": "/",
+      "search": "",
+      "state": null,
+    }
+  }
+  navigationType="POP"
+  navigator={
+    Object {
+      "action": "POP",
+      "createHref": [Function],
+      "encodeLocation": [Function],
+      "go": [Function],
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "key": "default",
+        "pathname": "/",
+        "search": "",
+        "state": null,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
 >
-  <div
-    className="Card"
-  >
-    <div
-      className="Card__imagewrapper"
-    >
-      <img
-        className="Card__image"
-        src="https://cdn.myanimelist.net/images/anime/4/19644.webp"
-      />
-    </div>
-    <div
-      className="Card__title"
-    >
-      Cowboy Bebop
-    </div>
-    <div
-      className="Card__footer"
-    >
-      <div>
-        <ForwardRef(SvgStarCommentAlt)
-          className="Card__ratingicon"
-        />
-         
-        1.5
-         (
-        12,345
-        )
-      </div>
-      <div
-        className="Card__rating"
-      >
-        <span
-          className="Card__ratinglabel"
-        >
-          Rating : 
-        </span>
-         
-        PG-13 - Teens 13 or older
-      </div>
-    </div>
-  </div>
-</div>
+  <Card
+    className={null}
+    detail={
+      Object {
+        "images": Object {
+          "jpg": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/4/19644.jpg",
+          },
+          "webp": Object {
+            "image_url": "https://cdn.myanimelist.net/images/anime/4/19644.webp",
+          },
+        },
+        "mal_id": 1,
+        "rating": "PG-13 - Teens 13 or older",
+        "score": 1.5,
+        "scored_by": 12345,
+        "title": "Cowboy Bebop",
+        "url": "https://myanimelist.net/anime/1/Cowboy_Bebop",
+      }
+    }
+  />
+</Router>
 `;

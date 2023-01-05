@@ -4,6 +4,7 @@ import Home from '../Home/Home';
 import NotFound from '../NotFound/NotFound';
 import HomeLayout from './layouts/HomeLayout';
 import { PAGE } from './common/constants/constant';
+import Detail from '../Detail/Detail';
 
 const App = () => {
   return (
@@ -13,6 +14,13 @@ const App = () => {
           (
             <HomeLayout>
               <Home />
+            </HomeLayout>
+          )
+        } />
+        <Route exact path={`${PAGE.DETAIL}/:id`} element={
+          (
+            <HomeLayout>
+              <Detail />
             </HomeLayout>
           )
         } />
