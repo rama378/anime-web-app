@@ -93,3 +93,6 @@ Show the anime prefered detail including the image and video
 
 ### Footer
 Show the app name and current date
+
+## Deployment
+Deploy using Firebase
