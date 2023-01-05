@@ -1,68 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Pagination /> should render and match the snapshot 1`] = `
-<div
-  className="Pagination"
->
-  <Button
-    className="Pagination__bullet"
-    style="default"
+<React.Fragment>
+  <div
+    className="Pagination"
   >
-    1
-  </Button>
-  <Button
-    className="Pagination__bullet"
-    style="clear"
-  >
-    2
-  </Button>
-  <Button
-    className="Pagination__bullet"
-    style="clear"
-  >
-    3
-  </Button>
-  <Button
-    className="Pagination__bullet"
-    style="clear"
-  >
-    4
-  </Button>
-  <Button
-    className="Pagination__bullet"
-    style="clear"
-  >
-    5
-  </Button>
-  <Button
-    className="Pagination__bullet"
-    style="clear"
-  >
-    6
-  </Button>
-  <Button
-    className="Pagination__bullet"
-    style="clear"
-  >
-    7
-  </Button>
-  <Button
-    className="Pagination__bullet"
-    style="clear"
-  >
-    8
-  </Button>
-  <Button
-    className="Pagination__bullet"
-    style="clear"
-  >
-    9
-  </Button>
-  <Button
-    className="Pagination__bullet"
-    style="clear"
-  >
-    10
-  </Button>
-</div>
+    <Button
+      className="Pagination__bullet"
+      onClick={[Function]}
+      style="default"
+    >
+      1
+    </Button>
+    <Button
+      className="Pagination__bullet"
+      onClick={[Function]}
+      style="clear"
+    >
+      2
+    </Button>
+    <Button
+      className="Pagination__bullet"
+      onClick={[Function]}
+      style="clear"
+    >
+      3
+    </Button>
+  </div>
+</React.Fragment>
 `;
