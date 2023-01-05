@@ -6,3 +6,5 @@ export const PAGE = {
   SIGNUP: '/signup',
   DETAIL: '/detail',
 };
+
+export const CARD_LIMIT = 10;

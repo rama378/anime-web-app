@@ -835,5 +835,11 @@ With his crazy doughnut obsession and buffoonish attitude in tow, Vash traverses
       }
     }
   />
+  <Pagination
+    limit={2}
+    maxPage={10}
+    onChange={[Function]}
+    page={0}
+  />
 </div>
 `;
