@@ -37,6 +37,7 @@
     }
 
     .Search__wrapper {
+        height: 200px;
         width: calc(100% - 64px);
         background: none;
     }
